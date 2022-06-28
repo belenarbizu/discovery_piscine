@@ -1,0 +1,171 @@
+body {
+	height: 100%;
+	margin: auto;
+	background-image: url('/Users/barbizu-/Downloads/thumb-1920-860645.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	padding: 50px;
+	margin-left: 150px;
+	margin-top: 100px;
+	margin-bottom: 200px;
+	font-family: 'Press Start 2P';
+}
+
+h2 {
+	margin-top: 150px;
+	padding: 20px;
+	margin-left: 150px;
+	font-family: 'Press Start 2P';	
+}
+
+h3, h4, h5 {
+	padding: 20px;
+	margin-left: 150px;
+	margin-right: 100px;
+	font-family: 'Press Start 2P';
+	background: rgba(255, 255, 255, 0.19);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4.7px);
+	-webkit-backdrop-filter: blur(4.7px);
+	border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.exp {
+	text-align: left;
+	margin-left: 180px;
+	margin-right: 100px;
+	padding: 15px;
+	font-family: 'Press Start 2P';
+	font-size: 12px;
+	background: rgba(255, 255, 255, 0.19);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4.7px);
+	-webkit-backdrop-filter: blur(4.7px);
+	border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.principal {
+	text-align: center;
+	margin-right: 5%;
+}
+
+.cargo {
+	margin-left: 180px;
+	margin-right: 60%;
+	margin-top: -100px;
+	font-family: 'Press Start 2P';
+}
+
+.imagen {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin-left: 70%;
+	margin-top: -170px;
+	border-radius: 50%;
+	border: 3px dashed black;
+}
+
+.intro, .info {
+	font-family: 'Press Start 2P';
+	font-size: 15px;
+	padding: 15px;
+	text-align: left;
+	margin-left: 180px;
+	margin-right: 100px;
+	margin-top: 50px;
+	background: rgba(255, 255, 255, 0.19);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(4.7px);
+	-webkit-backdrop-filter: blur(4.7px);
+	border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+#inicio {
+	background-image: url('/Users/barbizu-/Downloads/thumb-1920-860645.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+#cvnerea {
+	background-image: url('/Users/barbizu-/Downloads/thumb-1920-860645.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	margin-top: 50%;
+}
+
+#cvbelen {
+	background-image: url('/Users/barbizu-/Downloads/thumb-1920-860645.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	margin-top: 50px;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#nerea {
+	border: none;
+    border-radius: 25px 25px 25px 25px;
+    outline: 0;
+    padding: 16px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;
+	font-family: 'Press Start 2P';
+}
+
+.verde {
+	width: 200px;
+	height: 190px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+#belen {
+	border: none;
+	border-radius: 25px 25px 25px 25px;
+    padding: 16px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    font-size: 18px;
+	font-family: 'Press Start 2P';
+}
+
+.rojo {
+	width: 200px;
+	height: 190px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}

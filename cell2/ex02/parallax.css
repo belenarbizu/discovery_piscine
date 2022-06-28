@@ -1,0 +1,40 @@
+body, html {
+	height: 100%;
+	margin: auto;
+}
+
+h2 {
+	padding: 500px;
+	text-align: center;
+	color: white;
+}
+
+#unico {
+	padding: 350px;
+}
+
+.parallax {
+	background-image: url('https://media.traveler.es/photos/6217501f5fd959d63d427975/1:1/w_1304,h_1304,c_limit/muro%20istock.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	margin-top: -20px;
+}
+
+.caja {
+	background-color: black;
+	height: 60%;
+	margin-top: -20px;
+}
+
+.parallax2 {
+	background-image: url('https://media.traveler.es/photos/613783136936668f30c4063f/1:1/w_800,h_800,c_limit/17417.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	margin-top: -20px;
+}

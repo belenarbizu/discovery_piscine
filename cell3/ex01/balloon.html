@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style type="text/css">
+			#ballon {
+				width: 200px;
+				height: 200px;	
+    			border-radius: 50%;
+				background: red;
+			}
+		</style>
+		<title>Balloon</title>
+	</head>
+	<body>
+		<div id="ballon" onclick=changeSize() onmouseleave=reverseSize()></div>
+		<script type="text/javascript">
+			function changeSize() {
+				var ballon = document.getElementById("ballon");
+				var widthBallon = ballon.offsetWidth;
+				var heightBallon = ballon.offsetHeight;
+				if (widthBallon <= 420)
+				{
+					ballon.style.width = (widthBallon + 10) + "px";
+					ballon.style.height = (heightBallon + 10) + "px";
+					changeColor();
+				} else {
+					ballon.style.width = "200px";
+					ballon.style.height = "200px";
+					changeColor();
+				}
+			}
+			function changeColor() {
+				if (ballon.style.backgroundColor == "red")
+				{
+					ballon.style.backgroundColor = "green"; 
+				} else if (ballon.style.backgroundColor == "green"){
+					ballon.style.backgroundColor = "blue";
+				} else {
+					ballon.style.backgroundColor = "red";
+				}
+			}
+			function reverseSize() {
+				var ballon = document.getElementById("ballon");
+				var widthBallon = ballon.offsetWidth;
+				var heightBallon = ballon.offsetHeight;
+				if (widthBallon > 200)
+				{
+					ballon.style.width = (widthBallon - 5) + "px";
+					ballon.style.height = (heightBallon - 5) + "px";
+					reverseColor();
+				}
+			}
+			function reverseColor() {
+				if (ballon.style.backgroundColor == "red")
+				{
+					ballon.style.backgroundColor = "blue"; 
+				} else if (ballon.style.backgroundColor == "blue"){
+					ballon.style.backgroundColor = "green";
+				} else {
+					ballon.style.backgroundColor = "red";
+				}
+			}
+		</script>
+	</body>
+</html>

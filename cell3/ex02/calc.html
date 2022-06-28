@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style type="text/css">
+			body {
+				height: 100%;
+			}
+			.container {
+				height: 100vh;
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.calculadora {
+				border: 3px #8FDD77 solid;
+				width: 300px;
+				height: 200px;
+				text-align: center;
+				background-color: #BFFFAC;
+				padding: 10px;
+			}
+			.operaciones {
+				margin-top: 10px;
+			}
+			.texto2 {
+				margin-top: 10px;
+			}
+			.boton {
+				margin-top: 10px;
+				padding: 7px;
+			}
+		</style>
+		<title>Calculadora</title>
+	</head>
+	<body>
+		<div class="container">
+		<div class="calculadora">
+			<p><input type="text"></p>
+			<select name="operadores" class="operaciones">
+  				<option value="sumar">+</option>
+  				<option value="restar">-</option>
+  				<option value="multiplicar">*</option>
+				<option value="dividir">/</option>
+				<option value="porcentaje">%</option>
+			</select>
+			<p><input type="text" class="texto2"></p>
+			<p><input class="boton" type="submit" value="Try me!"></p>
+		</div>
+		</div>
+	</body>
+</html>
